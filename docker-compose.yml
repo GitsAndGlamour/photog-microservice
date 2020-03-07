@@ -1,0 +1,6 @@
+postgres:
+  image: postgres:11.1
+  environment:
+    - POSTGRES_DB=photog
+  ports:
+    - "5432:5432"
